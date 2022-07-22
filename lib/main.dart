@@ -13,10 +13,8 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Material App Bar'),
         ),
-        body: Center(
-          child: Container(
-            child: const Text('Hello World'),
-          ),
+        body: const Center(
+          child: Text('Hello World'),
         ),
       ),
     );
