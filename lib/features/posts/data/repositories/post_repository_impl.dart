@@ -44,8 +44,7 @@ class PostsRepositoryImpl extends PostsRepository {
 
   @override
   Future<Either<Failure, Unit>> addPost(Post post) async {
-    final postModel =
-        PostModel(id: post.id, title: post.title, body: post.body);
+    final postModel = PostModel(title: post.title, body: post.body);
     return await _getMessage(
       () => remoteDataSource.addPost(postModel),
     );
