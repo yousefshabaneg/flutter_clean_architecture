@@ -1,11 +1,12 @@
-import 'package:clean_architecture/core/util/snackbar_message.dart';
-import 'package:clean_architecture/core/widgets/loading_widget.dart';
-import 'package:clean_architecture/features/posts/domain/entities/post.dart';
-import 'package:clean_architecture/features/posts/presentation/bloc/add_delete_update_post/add_delete_update_post_bloc.dart';
-import 'package:clean_architecture/features/posts/presentation/pages/posts_page.dart';
-import 'package:clean_architecture/features/posts/presentation/widgets/post_details_widgets/form_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
+import '../../../../core/util/snackbar_message.dart';
+import '../../../../core/widgets/loading_widget.dart';
+import '../../domain/entities/post.dart';
+import '../bloc/add_delete_update_post/add_delete_update_post_bloc.dart';
+import '../widgets/post_details_page/form_widget.dart';
+import 'posts_page.dart';
 
 class PostAddUpdatePage extends StatelessWidget {
   final Post? post;

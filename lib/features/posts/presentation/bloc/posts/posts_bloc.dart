@@ -1,8 +1,8 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:clean_architecture/core/error/failures.dart';
-import 'package:clean_architecture/core/strings/failures.dart';
-import 'package:clean_architecture/features/posts/domain/entities/post.dart';
-import 'package:clean_architecture/features/posts/domain/usecases/get_all_posts.dart';
+import '../../../../../core/error/failures.dart';
+import '../../../../../core/strings/failures.dart';
+import '../../../domain/entities/post.dart';
+import '../../../domain/usecases/get_all_posts.dart';
 import 'package:dartz/dartz.dart';
 import 'package:equatable/equatable.dart';
 

@@ -1,9 +1,9 @@
-import 'package:clean_architecture/core/error/exceptions.dart';
-import 'package:clean_architecture/core/network/network_info.dart';
-import 'package:clean_architecture/features/posts/data/models/post_model.dart';
-import 'package:clean_architecture/features/posts/domain/entities/post.dart';
-import 'package:clean_architecture/core/error/failures.dart';
-import 'package:clean_architecture/features/posts/domain/repositories/posts_repository.dart';
+import '../../../../core/error/exceptions.dart';
+import '../../../../core/network/network_info.dart';
+import '../models/post_model.dart';
+import '../../domain/entities/post.dart';
+import '../../../../core/error/failures.dart';
+import '../../domain/repositories/posts_repository.dart';
 import 'package:dartz/dartz.dart';
 
 import '../datasources/post_local_datasource.dart';

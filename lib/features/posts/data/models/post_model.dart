@@ -1,4 +1,4 @@
-import 'package:clean_architecture/features/posts/domain/entities/post.dart';
+import '../../domain/entities/post.dart';
 
 class PostModel extends Post {
   const PostModel({
